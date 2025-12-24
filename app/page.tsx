@@ -592,16 +592,17 @@ export default function Home() {
             {/* 1. Mode & Line Selector */}
             <div className="space-y-3">
               {/* Mode Toggle */}
-              <div className={`flex p-1 rounded-lg ${theme === 'retro' ? 'bg-green-900/20 border border-green-900' : 'bg-slate-200/50'}`}>
+              <div className={`flex p-1 rounded-lg ${(theme as string) === 'retro' ? 'bg-green-900/20 border border-green-900' : 'bg-slate-200/50'}`}>
                 <button
+                  type="button"
                   onClick={() => setTransportMode('shinkansen')}
-                  className={`flex-1 py-1.5 rounded-md text-xs font-bold transition-all ${transportMode === 'shinkansen' ? (theme === 'retro' ? 'bg-green-900 text-green-100' : 'bg-white shadow text-blue-600') : (theme === 'retro' ? 'text-green-800' : 'text-slate-500')}`}
+                  className={`flex-1 py-1.5 rounded-md text-xs font-bold transition-all ${transportMode === 'shinkansen' ? ((theme as string) === 'retro' ? 'bg-green-900 text-green-100' : 'bg-white shadow text-blue-600') : ((theme as string) === 'retro' ? 'text-green-800' : 'text-slate-500')}`}
                 >
                   {t.modeShinkansen}
                 </button>
                 <button
                   onClick={() => setTransportMode('limited_express')}
-                  className={`flex-1 py-1.5 rounded-md text-xs font-bold transition-all ${transportMode === 'limited_express' ? (theme === 'retro' ? 'bg-green-900 text-green-100' : 'bg-white shadow text-indigo-600') : (theme === 'retro' ? 'text-green-800' : 'text-slate-500')}`}
+                  className={`flex-1 py-1.5 rounded-md text-xs font-bold transition-all ${transportMode === 'limited_express' ? ((theme as string) === 'retro' ? 'bg-green-900 text-green-100' : 'bg-white shadow text-indigo-600') : ((theme as string) === 'retro' ? 'text-green-800' : 'text-slate-500')}`}
                 >
                   {t.modeLimitedExpress}
                 </button>
@@ -609,7 +610,7 @@ export default function Home() {
 
               {transportMode === 'shinkansen' ? (
                 <div className="relative group">
-                  <div className={`absolute inset-0 rounded-lg blur opacity-50 transition duration-500 ${theme === 'retro' ? 'bg-green-900/40 opacity-0' : 'bg-gradient-to-r from-blue-50 to-purple-50 group-hover:opacity-100'}`}></div>
+                  <div className={`absolute inset-0 rounded-lg blur opacity-50 transition duration-500 ${(theme as string) === 'retro' ? 'bg-green-900/40 opacity-0' : 'bg-gradient-to-r from-blue-50 to-purple-50 group-hover:opacity-100'}`}></div>
                   <select
                     title={t.trainName}
                     value={selectedLineId}
@@ -620,7 +621,7 @@ export default function Home() {
                       <option key={l.id} value={l.id} className="text-slate-800 bg-white">{l.name}</option> // Keep options readable
                     ))}
                   </select>
-                  <div className={`absolute right-3 top-3 pointer-events-none ${theme === 'retro' ? 'text-green-500' : 'text-slate-500'}`}>▼</div>
+                  <div className={`absolute right-3 top-3 pointer-events-none ${(theme as string) === 'retro' ? 'text-green-500' : 'text-slate-500'}`}>▼</div>
                 </div>
               ) : (
                 <div className="relative group">
@@ -649,7 +650,7 @@ export default function Home() {
                       {TRAIN_MASTER.filter(t => t.company === 'JR_KYUSHU').map(t => <option key={t.name} value={t.name}>{t.name}</option>)}
                     </optgroup>
                   </select>
-                  <div className={`absolute right-3 top-3 pointer-events-none ${theme === 'retro' ? 'text-green-500' : 'text-slate-500'}`}>▼</div>
+                  <div className={`absolute right-3 top-3 pointer-events-none ${(theme as string) === 'retro' ? 'text-green-500' : 'text-slate-500'}`}>▼</div>
                 </div>
               )}
             </div>
@@ -658,14 +659,14 @@ export default function Home() {
             {transportMode === 'shinkansen' ? (
               <div className={`rounded-xl shadow-inner p-3 shrink-0 backdrop-blur-sm relative overflow-hidden transition-colors ${currentTheme.cardBg}`}>
                 {/* ... existing map ... */}
-                <div className={`absolute inset-0 opacity-[0.03] [background-size:10px_10px] ${theme === 'retro' ? 'bg-[radial-gradient(#0f0_1px,transparent_1px)]' : 'bg-[radial-gradient(#000_1px,transparent_1px)]'}`}></div>
+                <div className={`absolute inset-0 opacity-[0.03] [background-size:10px_10px] ${(theme as string) === 'retro' ? 'bg-[radial-gradient(#0f0_1px,transparent_1px)]' : 'bg-[radial-gradient(#000_1px,transparent_1px)]'}`}></div>
 
                 {/* Explicit FROM/TO Toggle Buttons */}
                 <div className="flex items-center gap-2 mb-2 shrink-0 z-10 relative">
                   <button
                     type="button"
                     onClick={() => setActiveSelection('from')}
-                    className={`flex-1 py-1.5 rounded-lg font-bold text-xs border transition-all relative overflow-hidden group ${activeSelection === 'from' ? (theme === 'retro' ? 'bg-green-900 text-green-100 border-green-500' : 'bg-blue-500/90 text-white border-blue-400 shadow-lg') : (theme === 'retro' ? 'bg-black text-green-700 border-green-900 hover:border-green-500' : 'bg-white/50 text-slate-500 border-white/60 hover:bg-white/80')}`}
+                    className={`flex-1 py-1.5 rounded-lg font-bold text-xs border transition-all relative overflow-hidden group ${activeSelection === 'from' ? ((theme as string) === 'retro' ? 'bg-green-900 text-green-100 border-green-500' : 'bg-blue-500/90 text-white border-blue-400 shadow-lg') : ((theme as string) === 'retro' ? 'bg-black text-green-700 border-green-900 hover:border-green-500' : 'bg-white/50 text-slate-500 border-white/60 hover:bg-white/80')}`}
                   >
                     <div className="relative z-10">
                       {t.from}
@@ -676,7 +677,7 @@ export default function Home() {
                   <button
                     type="button"
                     onClick={handleSwapStations}
-                    className={`shrink-0 w-8 h-8 rounded-full flex items-center justify-center border transition-all ${theme === 'retro' ? 'bg-black border-green-700 text-green-500 hover:bg-green-900' : 'bg-white border-slate-200 text-slate-500 hover:bg-slate-50 hover:text-blue-500 shadow-sm'}`}
+                    className={`shrink-0 w-8 h-8 rounded-full flex items-center justify-center border transition-all ${(theme as string) === 'retro' ? 'bg-black border-green-700 text-green-500 hover:bg-green-900' : 'bg-white border-slate-200 text-slate-500 hover:bg-slate-50 hover:text-blue-500 shadow-sm'}`}
                     title="Swap Stations"
                   >
                     ⇄
@@ -685,7 +686,7 @@ export default function Home() {
                   <button
                     type="button"
                     onClick={() => setActiveSelection('to')}
-                    className={`flex-1 py-1.5 rounded-lg font-bold text-xs border transition-all relative overflow-hidden group ${activeSelection === 'to' ? (theme === 'retro' ? 'bg-amber-900 text-amber-100 border-amber-500' : 'bg-amber-500/90 text-white border-amber-400 shadow-lg') : (theme === 'retro' ? 'bg-black text-green-700 border-green-900 hover:border-amber-500' : 'bg-white/50 text-slate-500 border-white/60 hover:bg-white/80')}`}
+                    className={`flex-1 py-1.5 rounded-lg font-bold text-xs border transition-all relative overflow-hidden group ${activeSelection === 'to' ? ((theme as string) === 'retro' ? 'bg-amber-900 text-amber-100 border-amber-500' : 'bg-amber-500/90 text-white border-amber-400 shadow-lg') : ((theme as string) === 'retro' ? 'bg-black text-green-700 border-green-900 hover:border-amber-500' : 'bg-white/50 text-slate-500 border-white/60 hover:bg-white/80')}`}
                   >
                     <div className="relative z-10">
                       {t.to}
@@ -694,7 +695,7 @@ export default function Home() {
                   </button>
                 </div>
 
-                <div className={`relative overflow-hidden h-[140px] rounded-lg shadow-inner ${theme === 'retro' ? 'bg-black border border-green-900' : 'bg-white/20 border border-white/30'}`}>
+                <div className={`relative overflow-hidden h-[140px] rounded-lg shadow-inner ${(theme as string) === 'retro' ? 'bg-black border border-green-900' : 'bg-white/20 border border-white/30'}`}>
                   <RouteMap
                     stations={stations}
                     from={from}
@@ -728,7 +729,7 @@ export default function Home() {
                     <button
                       type="button"
                       onClick={handleSwapStations}
-                      className={`shrink-0 w-8 h-8 rounded-full flex items-center justify-center border transition-all mt-4 ${theme === 'retro' ? 'bg-black border-green-700 text-green-500 hover:bg-green-900' : 'bg-white border-slate-200 text-slate-500 hover:bg-slate-50 hover:text-blue-500 shadow-sm'}`}
+                      className={`shrink-0 w-8 h-8 rounded-full flex items-center justify-center border transition-all mt-4 ${(theme as string) === 'retro' ? 'bg-black border-green-700 text-green-500 hover:bg-green-900' : 'bg-white border-slate-200 text-slate-500 hover:bg-slate-50 hover:text-blue-500 shadow-sm'}`}
                       title="Swap Stations"
                     >
                       ⇄
@@ -821,8 +822,8 @@ export default function Home() {
                     onClick={() => setSeatType(type)}
                     className={`flex-1 py-2 rounded-md text-xs font-bold transition-all relative overflow-hidden 
                     ${seatType === type
-                        ? (theme === 'retro' ? 'text-black bg-green-500' : 'text-blue-600 bg-white shadow-sm')
-                        : (theme === 'retro' ? 'text-green-800 hover:text-green-500' : 'text-slate-400 hover:text-slate-600 hover:bg-white/30')}`}
+                        ? ((theme as string) === 'retro' ? 'text-black bg-green-500' : 'text-blue-600 bg-white shadow-sm')
+                        : ((theme as string) === 'retro' ? 'text-green-800 hover:text-green-500' : 'text-slate-400 hover:text-slate-600 hover:bg-white/30')}`}
                   >
                     {type === 'unreserved' ? t.seatFree : type === 'reserved' ? t.seatReserved : t.seatGreen}
                   </button>
@@ -833,8 +834,8 @@ export default function Home() {
                     onClick={() => setSeatType('gran_class')}
                     className={`flex-1 py-1 rounded-md text-xs font-bold transition-all 
                     ${seatType === 'gran_class'
-                        ? (theme === 'retro' ? 'text-black bg-amber-500' : 'text-amber-600 bg-amber-50 shadow-sm')
-                        : (theme === 'retro' ? 'text-amber-900 hover:text-amber-500' : 'text-slate-400 hover:text-slate-600 hover:bg-white/30')}`}
+                        ? ((theme as string) === 'retro' ? 'text-black bg-amber-500' : 'text-amber-600 bg-amber-50 shadow-sm')
+                        : ((theme as string) === 'retro' ? 'text-amber-900 hover:text-amber-500' : 'text-slate-400 hover:text-slate-600 hover:bg-white/30')}`}
                   >
                     {t.seatGran}
                   </button>
@@ -949,7 +950,7 @@ export default function Home() {
                                 </div>
                                 <div className={`flex items-center gap-2 text-[10px] mt-0.5 md:mt-1 font-medium ${currentTheme.textSub}`}>
                                   {item.transportMode === 'limited_express' ? (
-                                    <span className={`px-1.5 py-0.5 rounded-sm border font-bold ${theme === 'retro'
+                                    <span className={`px-1.5 py-0.5 rounded-sm border font-bold ${(theme as string) === 'retro'
                                       ? 'bg-black text-green-500 border-green-500'
                                       : (theme === 'dark'
                                         ? 'bg-indigo-900 text-indigo-100 border-indigo-700'
@@ -972,7 +973,7 @@ export default function Home() {
                       </td>
                       <td className="p-3 md:p-5">
                         {!item.isNote && (
-                          <span className={`px-2 md:px-2.5 py-0.5 md:py-1 rounded-md text-[9px] md:text-[10px] font-bold shadow-sm border ${theme === 'retro'
+                          <span className={`px-2 md:px-2.5 py-0.5 md:py-1 rounded-md text-[9px] md:text-[10px] font-bold shadow-sm border ${(theme as string) === 'retro'
                             ? 'bg-black border-green-700 text-green-500'
                             : (item.seatType === 'green' ? 'bg-emerald-100/80 text-emerald-700 border-emerald-200' : (item.seatType === 'reserved' ? 'bg-blue-100/80 text-blue-700 border-blue-200' : item.seatType === 'gran_class' ? 'bg-amber-100/80 text-amber-800 border-amber-200' : 'bg-slate-100/80 text-slate-600 border-slate-200'))
                             }`}>
@@ -982,10 +983,10 @@ export default function Home() {
                       </td>
 
                       {/* EXPRESS FEE CHECKBOX */}
-                      <td className={`hidden md:table-cell p-3 md:p-5 text-right transition-colors ${theme === 'retro' ? 'hover:bg-amber-900/10' : 'bg-amber-50/10 hover:bg-amber-50/20'}`}>
+                      <td className={`hidden md:table-cell p-3 md:p-5 text-right transition-colors ${(theme as string) === 'retro' ? 'hover:bg-amber-900/10' : 'bg-amber-50/10 hover:bg-amber-50/20'}`}>
                         {!item.isNote && (
                           <div className="flex items-center justify-end gap-3">
-                            <div className={`text-xl font-black tracking-tight ${item.isFeeSelected ? (theme === 'retro' ? 'text-amber-500' : 'text-amber-600') : 'opacity-30 line-through'}`}>
+                            <div className={`text-xl font-black tracking-tight ${item.isFeeSelected ? ((theme as string) === 'retro' ? 'text-amber-500' : 'text-amber-600') : 'opacity-30 line-through'}`}>
                               ¥{item.shinkansenFee.toLocaleString()}
                             </div>
                             <div className="flex flex-col items-center">
@@ -1077,15 +1078,15 @@ export default function Home() {
 
         {/* Footer: Grand Total */}
         {comparisons.length > 0 && (
-          <div className={`relative md:absolute md:bottom-0 left-0 right-0 border-t p-4 md:p-6 shadow-[0_-5px_30px_rgba(0,0,0,0.05)] z-20 flex flex-col md:flex-row justify-between items-center gap-4 ${theme === 'light' ? 'bg-white border-slate-200' : (theme === 'dark' ? 'bg-slate-900 border-white/10' : 'bg-black border-green-900')}`}>
+          <div className={`relative md:absolute md:bottom-0 left-0 right-0 border-t p-4 md:p-6 shadow-[0_-5px_30px_rgba(0,0,0,0.05)] z-20 flex flex-col md:flex-row justify-between items-center gap-4 ${(theme as string) === 'light' ? 'bg-white border-slate-200' : ((theme as string) === 'dark' ? 'bg-slate-900 border-white/10' : 'bg-black border-green-900')}`}>
 
             {/* iOS 26 Style Footer Controls */}
-            <div className={`flex flex-wrap justify-center gap-1.5 p-1.5 rounded-full w-full md:w-auto backdrop-blur-xl ${theme === 'retro' ? 'bg-green-900/20 border border-green-900' : 'bg-slate-200/60 dark:bg-white/5 border border-white/10'}`}>
-              <button onClick={() => applyBatchSelection('all')} className={`px-4 py-2 rounded-full text-[10px] font-bold transition-all active:scale-95 ${theme === 'retro' ? 'text-green-400 hover:bg-green-900/50' : 'text-slate-600 dark:text-slate-300 hover:bg-white/50 dark:hover:bg-white/10'}`}>{t.selectAll}</button>
+            <div className={`flex flex-wrap justify-center gap-1.5 p-1.5 rounded-full w-full md:w-auto backdrop-blur-xl ${(theme as string) === 'retro' ? 'bg-green-900/20 border border-green-900' : 'bg-slate-200/60 dark:bg-white/5 border border-white/10'}`}>
+              <button onClick={() => applyBatchSelection('all')} className={`px-4 py-2 rounded-full text-[10px] font-bold transition-all active:scale-95 ${(theme as string) === 'retro' ? 'text-green-400 hover:bg-green-900/50' : 'text-slate-600 dark:text-slate-300 hover:bg-white/50 dark:hover:bg-white/10'}`}>{t.selectAll}</button>
               <div className="w-px h-4 my-auto bg-slate-300 dark:bg-white/10 opacity-50"></div>
-              <button onClick={() => applyBatchSelection('fee_only')} className={`px-4 py-2 rounded-full text-[10px] font-bold transition-all active:scale-95 ${theme === 'retro' ? 'text-amber-500 hover:bg-green-900/50' : 'text-amber-600 dark:text-amber-400 hover:bg-white/50 dark:hover:bg-white/10'}`}>{t.feeOnly}</button>
+              <button onClick={() => applyBatchSelection('fee_only')} className={`px-4 py-2 rounded-full text-[10px] font-bold transition-all active:scale-95 ${(theme as string) === 'retro' ? 'text-amber-500 hover:bg-green-900/50' : 'text-amber-600 dark:text-amber-400 hover:bg-white/50 dark:hover:bg-white/10'}`}>{t.feeOnly}</button>
               <div className="w-px h-4 my-auto bg-slate-300 dark:bg-white/10 opacity-50"></div>
-              <button onClick={() => applyBatchSelection('fare_only')} className={`px-4 py-2 rounded-full text-[10px] font-bold transition-all active:scale-95 ${theme === 'retro' ? 'text-blue-400 hover:bg-green-900/50' : 'text-blue-600 dark:text-blue-400 hover:bg-white/50 dark:hover:bg-white/10'}`}>{t.fareOnly}</button>
+              <button onClick={() => applyBatchSelection('fare_only')} className={`px-4 py-2 rounded-full text-[10px] font-bold transition-all active:scale-95 ${(theme as string) === 'retro' ? 'text-blue-400 hover:bg-green-900/50' : 'text-blue-600 dark:text-blue-400 hover:bg-white/50 dark:hover:bg-white/10'}`}>{t.fareOnly}</button>
             </div>
 
             <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8 w-full md:w-auto">
@@ -1110,7 +1111,7 @@ export default function Home() {
                     flex items-center justify-center gap-2
                     backdrop-blur-2xl transition-all duration-300
                     active:scale-90 hover:shadow-lg
-                    ${theme === 'retro'
+                    ${(theme as string) === 'retro'
                       ? 'bg-black/80 border border-green-500/50 text-green-500 shadow-[0_0_15px_rgba(34,197,94,0.3)]'
                       : 'bg-white/80 dark:bg-slate-800/80 border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-200 shadow-[0_8px_30px_rgba(0,0,0,0.12)] hover:bg-white'}
                   `}
@@ -1127,7 +1128,7 @@ export default function Home() {
                     flex items-center justify-center gap-2
                     backdrop-blur-2xl transition-all duration-300
                     active:scale-90 hover:shadow-lg
-                    ${theme === 'retro'
+                    ${(theme as string) === 'retro'
                       ? 'bg-green-600/90 border border-green-400/50 text-black shadow-[0_0_20px_rgba(34,197,94,0.5)]'
                       : 'bg-gradient-to-b from-blue-500 to-blue-600 text-white border border-blue-400/30 shadow-[0_8px_30px_rgba(59,130,246,0.4)] hover:shadow-[0_10px_40px_rgba(59,130,246,0.6)]'}
                   `}
