@@ -1,0 +1,51 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Station {
+  id             String    @id
+  name           String
+  kana           String?
+  company        String    // e.g., "JR_TOKAI"
+  
+  fromSegments   Segment[] @relation("FromStation")
+  toSegments     Segment[] @relation("ToStation")
+}
+
+model Segment {
+  id           String  @id @default(uuid())
+  fromStationId String
+  toStationId   String
+  line         String  // e.g., "TOKAIDO_SHINKANSEN"
+  km           Float
+  type         String  // "conventional" | "shinkansen"
+
+  fromStation  Station @relation("FromStation", fields: [fromStationId], references: [id])
+  toStation    Station @relation("ToStation", fields: [toStationId], references: [id])
+
+  @@index([fromStationId, toStationId])
+}
+
+model ShinkansenFee {
+  id        Int     @id @default(autoincrement())
+  line      String
+  seatType  String  // "unreserved" | "reserved"
+  maxKm     Float
+  fee       Int
+
+  @@index([line, seatType, maxKm])
+}
+
+model FareTable {
+  id     Int   @id @default(autoincrement())
+  maxKm  Float @unique
+  fare   Int
+}

@@ -1,0 +1,222 @@
+[
+    {
+        "id": "JOBAN_LINE",
+        "name": "常磐線 (ひたち・ときわ)",
+        "stations": [
+            {
+                "id": "SHINAGAWA",
+                "km": 0.0
+            },
+            {
+                "id": "TOKYO",
+                "km": 6.8
+            },
+            {
+                "id": "UENO",
+                "km": 10.4
+            },
+            {
+                "id": "TSUCHIURA",
+                "km": 76.4
+            },
+            {
+                "id": "KATSUTA",
+                "km": 133.7
+            },
+            {
+                "id": "MITO",
+                "km": 127.9
+            },
+            {
+                "id": "IWAKI",
+                "km": 219.8
+            },
+            {
+                "id": "SENDAI",
+                "km": 372.6
+            }
+        ]
+    },
+    {
+        "id": "CHUO_LINE",
+        "name": "中央本線 (あずさ・かいじ)",
+        "stations": [
+            {
+                "id": "TOKYO",
+                "km": 0.0
+            },
+            {
+                "id": "SHINJUKU",
+                "km": 10.3
+            },
+            {
+                "id": "TACHIKAWA",
+                "km": 37.5
+            },
+            {
+                "id": "HACHIOJI",
+                "km": 47.4
+            },
+            {
+                "id": "KOFU",
+                "km": 134.1
+            },
+            {
+                "id": "CHINO",
+                "km": 195.2
+            },
+            {
+                "id": "KAMI_SUWA",
+                "km": 201.9
+            },
+            {
+                "id": "MATSUMOTO",
+                "km": 235.4
+            }
+        ]
+    },
+    {
+        "id": "NARITA_EXPRESS_LINE",
+        "name": "成田エクスプレス",
+        "stations": [
+            {
+                "id": "OFUNA",
+                "km": 0.0
+            },
+            {
+                "id": "YOKOHAMA",
+                "km": 17.7
+            },
+            {
+                "id": "SHINAGAWA",
+                "km": 39.7
+            },
+            {
+                "id": "TOKYO",
+                "km": 46.5
+            },
+            {
+                "id": "CHIBA",
+                "km": 85.7
+            },
+            {
+                "id": "NARITA_AIRPORT",
+                "km": 125.9
+            }
+        ]
+    },
+    {
+        "id": "WAKASHIO_SAZANAMI_LINE",
+        "name": "京葉線・外房線・内房線 (わかしお・さざなみ)",
+        "stations": [
+            {
+                "id": "TOKYO",
+                "km": 0.0
+            },
+            {
+                "id": "SOGA",
+                "km": 43.0
+            },
+            {
+                "id": "KAZUSA_ICHINOMIYA",
+                "km": 79.9
+            },
+            {
+                "id": "KATSUURA",
+                "km": 106.8
+            },
+            {
+                "id": "AWA_KAMOGAWA",
+                "km": 133.2
+            },
+            {
+                "id": "KIMITSU",
+                "km": 81.3
+            },
+            {
+                "id": "TATEYAMA",
+                "km": 123.6
+            }
+        ]
+    },
+    {
+        "id": "TSUGARU_INAHO_LINE",
+        "name": "奥羽本線・羽越本線 (つがる・いなほ)",
+        "stations": [
+            {
+                "id": "NIIGATA",
+                "km": 0.0
+            },
+            {
+                "id": "MURAKAMI",
+                "km": 59.4
+            },
+            {
+                "id": "TSURUOKA",
+                "km": 139.4
+            },
+            {
+                "id": "SAKATA",
+                "km": 166.9
+            },
+            {
+                "id": "AKITA",
+                "km": 273.0
+            },
+            {
+                "id": "HIROSAKI",
+                "km": 421.3
+            },
+            {
+                "id": "SHIN_AOMORI",
+                "km": 455.5
+            },
+            {
+                "id": "AOMORI",
+                "km": 459.4
+            }
+        ]
+    },
+    {
+        "id": "ODORIKO_LINE",
+        "name": "東海道線・伊豆急行線 (踊り子)",
+        "stations": [
+            {
+                "id": "TOKYO",
+                "km": 0.0
+            },
+            {
+                "id": "SHINAGAWA",
+                "km": 6.8
+            },
+            {
+                "id": "KAWASAKI",
+                "km": 18.2
+            },
+            {
+                "id": "YOKOHAMA",
+                "km": 28.8
+            },
+            {
+                "id": "OFUNA",
+                "km": 46.5
+            },
+            {
+                "id": "ODAWARA",
+                "km": 83.9
+            },
+            {
+                "id": "ATAMI",
+                "km": 104.6
+            },
+            {
+                "id": "ITO",
+                "km": 121.5
+            },
+            {
+                "id": "IZUKYU_SHIMODA",
+                "km": 167.2
+            }
+        ]
+    }
+]

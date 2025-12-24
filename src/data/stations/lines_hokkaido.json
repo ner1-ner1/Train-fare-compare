@@ -1,0 +1,130 @@
+[
+    {
+        "id": "HOKUTO_LINE",
+        "name": "函館本線・室蘭本線・千歳線 (北斗・すずらん)",
+        "stations": [
+            {
+                "id": "HAKODATE",
+                "km": 0.0
+            },
+            {
+                "id": "GORYOKAKU",
+                "km": 3.4
+            },
+            {
+                "id": "SHIN_HAKODATE_HOKUTO",
+                "km": 17.9
+            },
+            {
+                "id": "ONUMAKOEN",
+                "km": 28.0
+            },
+            {
+                "id": "MORI",
+                "km": 49.5
+            },
+            {
+                "id": "YAKUMO",
+                "km": 81.3
+            },
+            {
+                "id": "OSHAMAMBE",
+                "km": 112.3
+            },
+            {
+                "id": "TOYA",
+                "km": 153.0
+            },
+            {
+                "id": "DATEMONBETSU",
+                "km": 166.3
+            },
+            {
+                "id": "HIGASHI_MURORAN",
+                "km": 189.5
+            },
+            {
+                "id": "NOBORIBETSU",
+                "km": 213.9
+            },
+            {
+                "id": "SHIRAOI",
+                "km": 232.3
+            },
+            {
+                "id": "TOMAKOMAI",
+                "km": 251.0
+            },
+            {
+                "id": "MINAMI_CHITOSE",
+                "km": 273.0
+            },
+            {
+                "id": "SHIN_SAPPORO",
+                "km": 305.9
+            },
+            {
+                "id": "SAPPORO",
+                "km": 318.7
+            }
+        ]
+    },
+    {
+        "id": "OZORA_TOKACHI_LINE",
+        "name": "石勝線・根室本線 (おおぞら・とかち)",
+        "stations": [
+            {
+                "id": "SAPPORO",
+                "km": 0.0
+            },
+            {
+                "id": "SHIN_SAPPORO",
+                "km": 10.9
+            },
+            {
+                "id": "MINAMI_CHITOSE",
+                "km": 43.8
+            },
+            {
+                "id": "OIWAKE",
+                "km": 57.6
+            },
+            {
+                "id": "SHIN_YUBARI",
+                "km": 86.8
+            },
+            {
+                "id": "SHIMUKAPPU",
+                "km": 118.8
+            },
+            {
+                "id": "TOMAMU",
+                "km": 142.5
+            },
+            {
+                "id": "SHINTOKU",
+                "km": 175.7
+            },
+            {
+                "id": "OBIHIRO",
+                "km": 220.2
+            },
+            {
+                "id": "IKEDA",
+                "km": 242.4
+            },
+            {
+                "id": "URAHORO",
+                "km": 269.9
+            },
+            {
+                "id": "SHIRANUKA",
+                "km": 313.2
+            },
+            {
+                "id": "KUSHIRO",
+                "km": 348.5
+            }
+        ]
+    }
+]

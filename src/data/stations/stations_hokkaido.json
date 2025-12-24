@@ -1,0 +1,366 @@
+[
+    {
+        "id": "SAPPORO",
+        "name": "札幌",
+        "kana": "さっぽろ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "SHIN_SAPPORO",
+        "name": "新札幌",
+        "kana": "しんさっぽろ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "MINAMI_CHITOSE",
+        "name": "南千歳",
+        "kana": "みなみちとせ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "TOMAKOMAI",
+        "name": "苫小牧",
+        "kana": "とまこまい",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "SHIRAOI",
+        "name": "白老",
+        "kana": "しらおい",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "NOBORIBETSU",
+        "name": "登別",
+        "kana": "のぼりべつ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "HIGASHI_MURORAN",
+        "name": "東室蘭",
+        "kana": "ひがしむろらん",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "DATEMONBETSU",
+        "name": "伊達紋別",
+        "kana": "だてもんべつ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "OOHAMANAKOUEN",
+        "name": "大岸",
+        "kana": "おおきし",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "TOYA",
+        "name": "洞爺",
+        "kana": "とうや",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "OSHAMAMBE",
+        "name": "長万部",
+        "kana": "おしゃまんべ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "YAKUMO",
+        "name": "八雲",
+        "kana": "やくも",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "MORI",
+        "name": "森",
+        "kana": "もり",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "ONUMAKOEN",
+        "name": "大沼公園",
+        "kana": "おおぬまこうえん",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "GORYOKAKU",
+        "name": "五稜郭",
+        "kana": "ごりょうかく",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "HAKODATE",
+        "name": "函館",
+        "kana": "はこだて",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "SHIN_HAKODATE_HOKUTO",
+        "name": "新函館北斗",
+        "kana": "しんはこだてほくと",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "OIWAKE",
+        "name": "追分",
+        "kana": "おいわけ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "SHIN_YUBARI",
+        "name": "新夕張",
+        "kana": "しんゆうばり",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "SHIMUKAPPU",
+        "name": "占冠",
+        "kana": "しむかっぷ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "TOMAMU",
+        "name": "トマム",
+        "kana": "とまむ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "SHINTOKU",
+        "name": "新得",
+        "kana": "しんとく",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "OBIHIRO",
+        "name": "帯広",
+        "kana": "おびひろ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "IKEDA",
+        "name": "池田",
+        "kana": "いけだ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "URAHORO",
+        "name": "浦幌",
+        "kana": "うらほろ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "SHIRANUKA",
+        "name": "白糠",
+        "kana": "しらぬか",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "KUSHIRO",
+        "name": "釧路",
+        "kana": "くしろ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "IWAMIZAWA",
+        "name": "岩見沢",
+        "kana": "いわみざわ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "BIBAI",
+        "name": "美唄",
+        "kana": "びばい",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "SUNAGAWA",
+        "name": "砂川",
+        "kana": "すながわ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "TAKIKAWA",
+        "name": "滝川",
+        "kana": "たきかわ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "FUKAGAWA",
+        "name": "深川",
+        "kana": "ふかがわ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "ASAHIKAWA",
+        "name": "旭川",
+        "kana": "あさひかわ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "WASSAMU",
+        "name": "和寒",
+        "kana": "わっさむ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "SHIBETSU",
+        "name": "士別",
+        "kana": "しべつ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "NAYORO",
+        "name": "名寄",
+        "kana": "なよろ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "OTOINEPPU",
+        "name": "音威子府",
+        "kana": "おといねっぷ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "TESHIO_NAKAGAWA",
+        "name": "天塩中川",
+        "kana": "てしおなかがわ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "HORONOBE",
+        "name": "幌延",
+        "kana": "ほろのべ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "TOYOTOMI",
+        "name": "豊富",
+        "kana": "とよとみ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "MINAMI_WAKKANAI",
+        "name": "南稚内",
+        "kana": "みなみわっかない",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "WAKKANAI",
+        "name": "稚内",
+        "kana": "わっかない",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "KAMIKAWA",
+        "name": "上川",
+        "kana": "かみかわ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "SHIRATAKI",
+        "name": "白滝",
+        "kana": "しらたき",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "MARUSEPPU",
+        "name": "丸瀬布",
+        "kana": "まるせっぷ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "ENGARU",
+        "name": "遠軽",
+        "kana": "えんがる",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "IKUTAHARA",
+        "name": "生田原",
+        "kana": "いくたはら",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "RUBESHIBE",
+        "name": "留辺蘂",
+        "kana": "るべしべ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "KITAMI",
+        "name": "北見",
+        "kana": "きたみ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "BIHORO",
+        "name": "美幌",
+        "kana": "びほろ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "MEMANBETSU",
+        "name": "女満別",
+        "kana": "めまんべつ",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    },
+    {
+        "id": "ABASHIRI",
+        "name": "網走",
+        "kana": "あばしり",
+        "company": "JR_HOKKAIDO",
+        "pref": "北海道"
+    }
+]

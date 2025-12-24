@@ -1,0 +1,64 @@
+[
+    {
+        "id": "SONIC_LINE",
+        "name": "鹿児島本線・日豊本線 (ソニック・にちりん)",
+        "stations": [
+            {
+                "id": "HAKATA",
+                "km": 0.0
+            },
+            {
+                "id": "KOKURA",
+                "km": 67.2
+            },
+            {
+                "id": "BEPPU",
+                "km": 139.1
+            },
+            {
+                "id": "OITA",
+                "km": 151.2
+            },
+            {
+                "id": "MIYAZAKI",
+                "km": 358.2
+            }
+        ]
+    },
+    {
+        "id": "RELAY_KAMOME_LINE",
+        "name": "長崎本線 (リレーかもめ)",
+        "stations": [
+            {
+                "id": "HAKATA",
+                "km": 0.0
+            },
+            {
+                "id": "SAGA",
+                "km": 53.6
+            },
+            {
+                "id": "NAGASAKI",
+                "km": 153.9
+            }
+        ]
+    },
+    {
+        "id": "KIRISHIMA_LINE",
+        "name": "日豊本線・鹿児島本線 (きりしま・指宿)",
+        "stations": [
+            {
+                "id": "MIYAZAKI",
+                "km": 0.0
+            },
+            {
+                "id": "KAGOSHIMA_CHUO",
+                "km": 125.9
+            },
+            {
+                "id": "IBUSUKI",
+                "km": 169.1
+            }
+        ]
+    }
+]

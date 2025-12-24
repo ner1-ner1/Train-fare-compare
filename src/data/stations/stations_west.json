@@ -1,0 +1,135 @@
+[
+    {
+        "id": "KYOTO",
+        "name": "京都",
+        "company": "JR_WEST",
+        "pref": "京都府"
+    },
+    {
+        "id": "SHIN_OSAKA",
+        "name": "新大阪",
+        "company": "JR_WEST",
+        "pref": "大阪府"
+    },
+    {
+        "id": "OSAKA",
+        "name": "大阪",
+        "kana": "おおさか",
+        "company": "JR_WEST",
+        "pref": "大阪府"
+    },
+    {
+        "id": "TENNOJI",
+        "name": "天王寺",
+        "kana": "てんのうじ",
+        "company": "JR_WEST",
+        "pref": "大阪府"
+    },
+    {
+        "id": "WAKAYAMA",
+        "name": "和歌山",
+        "kana": "わかやま",
+        "company": "JR_WEST",
+        "pref": "和歌山県"
+    },
+    {
+        "id": "SHIRAHAMA",
+        "name": "白浜",
+        "kana": "しらはま",
+        "company": "JR_WEST",
+        "pref": "和歌山県"
+    },
+    {
+        "id": "SANNOMIYA",
+        "name": "三ノ宮",
+        "kana": "さんのみや",
+        "company": "JR_WEST",
+        "pref": "兵庫県"
+    },
+    {
+        "id": "HIMEJI",
+        "name": "姫路",
+        "company": "JR_WEST",
+        "pref": "兵庫県"
+    },
+    {
+        "id": "TSURUGA",
+        "name": "敦賀",
+        "company": "JR_WEST",
+        "pref": "福井県"
+    },
+    {
+        "id": "FUKUI",
+        "name": "福井",
+        "company": "JR_WEST",
+        "pref": "福井県"
+    },
+    {
+        "id": "KANAZAWA",
+        "name": "金沢",
+        "company": "JR_WEST",
+        "pref": "石川県"
+    },
+    {
+        "id": "FUKUCHIYAMA",
+        "name": "福知山",
+        "kana": "ふくちやま",
+        "company": "JR_WEST",
+        "pref": "京都府"
+    },
+    {
+        "id": "KINOSAKI_ONSEN",
+        "name": "城崎温泉",
+        "kana": "きのさきおんせん",
+        "company": "JR_WEST",
+        "pref": "兵庫県"
+    },
+    {
+        "id": "OKAYAMA",
+        "name": "岡山",
+        "company": "JR_WEST",
+        "pref": "岡山県"
+    },
+    {
+        "id": "KURASHIKI",
+        "name": "倉敷",
+        "kana": "くらしき",
+        "company": "JR_WEST",
+        "pref": "岡山県"
+    },
+    {
+        "id": "YONAGO",
+        "name": "米子",
+        "kana": "よなご",
+        "company": "JR_WEST",
+        "pref": "鳥取県"
+    },
+    {
+        "id": "MATSUE",
+        "name": "松江",
+        "kana": "まつえ",
+        "company": "JR_WEST",
+        "pref": "島根県"
+    },
+    {
+        "id": "IZUMOSHI",
+        "name": "出雲市",
+        "kana": "いずもし",
+        "company": "JR_WEST",
+        "pref": "島根県"
+    },
+    {
+        "id": "TOTTORI",
+        "name": "鳥取",
+        "kana": "とっとり",
+        "company": "JR_WEST",
+        "pref": "鳥取県"
+    },
+    {
+        "id": "KANSAI_AIRPORT",
+        "name": "関西空港",
+        "kana": "かんさいくうこう",
+        "company": "JR_WEST",
+        "pref": "大阪府"
+    }
+]

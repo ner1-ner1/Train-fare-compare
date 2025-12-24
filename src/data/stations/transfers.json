@@ -1,0 +1,16 @@
+[
+    {
+        "fromStationId": "MINAMI_CHITOSE",
+        "toStationId": "MINAMI_CHITOSE",
+        "type": "same_station",
+        "minutes": 0,
+        "note": "北斗・おおぞら・とかち乗換"
+    },
+    {
+        "fromStationId": "SAPPORO",
+        "toStationId": "SAPPORO",
+        "type": "same_station",
+        "minutes": 0,
+        "note": "全方面乗換"
+    }
+]

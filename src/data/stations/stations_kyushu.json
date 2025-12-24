@@ -1,0 +1,68 @@
+[
+    {
+        "id": "HAKATA",
+        "name": "博多",
+        "company": "JR_KYUSHU",
+        "pref": "福岡県"
+    },
+    {
+        "id": "KOKURA",
+        "name": "小倉",
+        "company": "JR_KYUSHU",
+        "pref": "福岡県"
+    },
+    {
+        "id": "OITA",
+        "name": "大分",
+        "kana": "おおいた",
+        "company": "JR_KYUSHU",
+        "pref": "大分県"
+    },
+    {
+        "id": "BEPPU",
+        "name": "別府",
+        "kana": "べっぷ",
+        "company": "JR_KYUSHU",
+        "pref": "大分県"
+    },
+    {
+        "id": "SAGA",
+        "name": "佐賀",
+        "kana": "さが",
+        "company": "JR_KYUSHU",
+        "pref": "佐賀県"
+    },
+    {
+        "id": "NAGASAKI",
+        "name": "長崎",
+        "kana": "ながさき",
+        "company": "JR_KYUSHU",
+        "pref": "長崎県"
+    },
+    {
+        "id": "KUMAMOTO",
+        "name": "熊本",
+        "company": "JR_KYUSHU",
+        "pref": "熊本県"
+    },
+    {
+        "id": "KAGOSHIMA_CHUO",
+        "name": "鹿児島中央",
+        "company": "JR_KYUSHU",
+        "pref": "鹿児島県"
+    },
+    {
+        "id": "MIYAZAKI",
+        "name": "宮崎",
+        "kana": "みやざき",
+        "company": "JR_KYUSHU",
+        "pref": "宮崎県"
+    },
+    {
+        "id": "IBUSUKI",
+        "name": "指宿",
+        "kana": "いぶすき",
+        "company": "JR_KYUSHU",
+        "pref": "鹿児島県"
+    }
+]

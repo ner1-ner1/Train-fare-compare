@@ -1,0 +1,285 @@
+[
+    {
+        "id": "AOMORI",
+        "name": "青森",
+        "kana": "あおもり",
+        "company": "JR_EAST",
+        "pref": "青森県"
+    },
+    {
+        "id": "SHIN_AOMORI",
+        "name": "新青森",
+        "company": "JR_EAST",
+        "pref": "青森県"
+    },
+    {
+        "id": "HIROSAKI",
+        "name": "弘前",
+        "kana": "ひろさき",
+        "company": "JR_EAST",
+        "pref": "青森県"
+    },
+    {
+        "id": "AKITA",
+        "name": "秋田",
+        "company": "JR_EAST",
+        "pref": "秋田県"
+    },
+    {
+        "id": "MORIOKA",
+        "name": "盛岡",
+        "company": "JR_EAST",
+        "pref": "岩手県"
+    },
+    {
+        "id": "SENDAI",
+        "name": "仙台",
+        "company": "JR_EAST",
+        "pref": "宮城県"
+    },
+    {
+        "id": "YAMAGATA",
+        "name": "山形",
+        "company": "JR_EAST",
+        "pref": "山形県"
+    },
+    {
+        "id": "FUKUSHIMA",
+        "name": "福島",
+        "company": "JR_EAST",
+        "pref": "福島県"
+    },
+    {
+        "id": "KORIYAMA",
+        "name": "郡山",
+        "company": "JR_EAST",
+        "pref": "福島県"
+    },
+    {
+        "id": "NIIGATA",
+        "name": "新潟",
+        "company": "JR_EAST",
+        "pref": "新潟県"
+    },
+    {
+        "id": "SAKATA",
+        "name": "酒田",
+        "kana": "さかた",
+        "company": "JR_EAST",
+        "pref": "山形県"
+    },
+    {
+        "id": "TSURUOKA",
+        "name": "鶴岡",
+        "kana": "つるおか",
+        "company": "JR_EAST",
+        "pref": "山形県"
+    },
+    {
+        "id": "MURAKAMI",
+        "name": "村上",
+        "kana": "むらかみ",
+        "company": "JR_EAST",
+        "pref": "新潟県"
+    },
+    {
+        "id": "IWAKI",
+        "name": "いわき",
+        "kana": "いわき",
+        "company": "JR_EAST",
+        "pref": "福島県"
+    },
+    {
+        "id": "MITO",
+        "name": "水戸",
+        "kana": "みと",
+        "company": "JR_EAST",
+        "pref": "茨城県"
+    },
+    {
+        "id": "KATSUTA",
+        "name": "勝田",
+        "kana": "かつた",
+        "company": "JR_EAST",
+        "pref": "茨城県"
+    },
+    {
+        "id": "TSUCHIURA",
+        "name": "土浦",
+        "kana": "つちうら",
+        "company": "JR_EAST",
+        "pref": "茨城県"
+    },
+    {
+        "id": "UENO",
+        "name": "上野",
+        "company": "JR_EAST",
+        "pref": "東京都"
+    },
+    {
+        "id": "TOKYO",
+        "name": "東京",
+        "company": "JR_EAST",
+        "pref": "東京都"
+    },
+    {
+        "id": "SHINAGAWA",
+        "name": "品川",
+        "company": "JR_EAST",
+        "pref": "東京都"
+    },
+    {
+        "id": "SHINJUKU",
+        "name": "新宿",
+        "kana": "しんじゅく",
+        "company": "JR_EAST",
+        "pref": "東京都"
+    },
+    {
+        "id": "TACHIKAWA",
+        "name": "立川",
+        "kana": "たちかわ",
+        "company": "JR_EAST",
+        "pref": "東京都"
+    },
+    {
+        "id": "HACHIOJI",
+        "name": "八王子",
+        "kana": "はちおうじ",
+        "company": "JR_EAST",
+        "pref": "東京都"
+    },
+    {
+        "id": "KOFU",
+        "name": "甲府",
+        "kana": "こうふ",
+        "company": "JR_EAST",
+        "pref": "山梨県"
+    },
+    {
+        "id": "CHINO",
+        "name": "茅野",
+        "kana": "ちの",
+        "company": "JR_EAST",
+        "pref": "長野県"
+    },
+    {
+        "id": "KAMI_SUWA",
+        "name": "上諏訪",
+        "kana": "かみすわ",
+        "company": "JR_EAST",
+        "pref": "長野県"
+    },
+    {
+        "id": "MATSUMOTO",
+        "name": "松本",
+        "kana": "まつもと",
+        "company": "JR_EAST",
+        "pref": "長野県"
+    },
+    {
+        "id": "CHIBA",
+        "name": "千葉",
+        "kana": "ちば",
+        "company": "JR_EAST",
+        "pref": "千葉県"
+    },
+    {
+        "id": "SOGA",
+        "name": "蘇我",
+        "kana": "そが",
+        "company": "JR_EAST",
+        "pref": "千葉県"
+    },
+    {
+        "id": "NARITA_AIRPORT",
+        "name": "成田空港",
+        "kana": "なりたくうこう",
+        "company": "JR_EAST",
+        "pref": "千葉県"
+    },
+    {
+        "id": "KAZUSA_ICHINOMIYA",
+        "name": "上総一ノ宮",
+        "kana": "かずさいちのみや",
+        "company": "JR_EAST",
+        "pref": "千葉県"
+    },
+    {
+        "id": "KATSUURA",
+        "name": "勝浦",
+        "kana": "かつうら",
+        "company": "JR_EAST",
+        "pref": "千葉県"
+    },
+    {
+        "id": "AWA_KAMOGAWA",
+        "name": "安房鴨川",
+        "kana": "あわかもがわ",
+        "company": "JR_EAST",
+        "pref": "千葉県"
+    },
+    {
+        "id": "KIMITSU",
+        "name": "君津",
+        "kana": "きみつ",
+        "company": "JR_EAST",
+        "pref": "千葉県"
+    },
+    {
+        "id": "TATEYAMA",
+        "name": "館山",
+        "kana": "たてやま",
+        "company": "JR_EAST",
+        "pref": "千葉県"
+    },
+    {
+        "id": "KAWASAKI",
+        "name": "川崎",
+        "kana": "かわさき",
+        "company": "JR_EAST",
+        "pref": "神奈川県"
+    },
+    {
+        "id": "YOKOHAMA",
+        "name": "横浜",
+        "kana": "よこはま",
+        "company": "JR_EAST",
+        "pref": "神奈川県"
+    },
+    {
+        "id": "OFUNA",
+        "name": "大船",
+        "kana": "おおふな",
+        "company": "JR_EAST",
+        "pref": "神奈川県"
+    },
+    {
+        "id": "ODAWARA",
+        "name": "小田原",
+        "kana": "おだわら",
+        "company": "JR_EAST",
+        "pref": "神奈川県"
+    },
+    {
+        "id": "ATAMI",
+        "name": "熱海",
+        "kana": "あたみ",
+        "company": "JR_EAST",
+        "pref": "静岡県"
+    },
+    {
+        "id": "ITO",
+        "name": "伊東",
+        "kana": "いとう",
+        "company": "JR_EAST",
+        "pref": "静岡県"
+    },
+    {
+        "id": "IZUKYU_SHIMODA",
+        "name": "伊豆急下田",
+        "kana": "いずきゅうしもだ",
+        "company": "OTHER",
+        "pref": "静岡県"
+    }
+]

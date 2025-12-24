@@ -1,0 +1,51 @@
+[
+    {
+        "id": "TAKAMATSU",
+        "name": "高松",
+        "kana": "たかまつ",
+        "company": "JR_SHIKOKU",
+        "pref": "香川県"
+    },
+    {
+        "id": "UTAZU",
+        "name": "宇多津",
+        "kana": "うたづ",
+        "company": "JR_SHIKOKU",
+        "pref": "香川県"
+    },
+    {
+        "id": "MARUGAME",
+        "name": "丸亀",
+        "kana": "まるがめ",
+        "company": "JR_SHIKOKU",
+        "pref": "香川県"
+    },
+    {
+        "id": "MATSUYAMA",
+        "name": "松山",
+        "kana": "まつやま",
+        "company": "JR_SHIKOKU",
+        "pref": "愛媛県"
+    },
+    {
+        "id": "IMAABARI",
+        "name": "今治",
+        "kana": "いまばり",
+        "company": "JR_SHIKOKU",
+        "pref": "愛媛県"
+    },
+    {
+        "id": "KOCHI",
+        "name": "高知",
+        "kana": "こうち",
+        "company": "JR_SHIKOKU",
+        "pref": "高知県"
+    },
+    {
+        "id": "TOKUSHIMA",
+        "name": "徳島",
+        "kana": "とくしま",
+        "company": "JR_SHIKOKU",
+        "pref": "徳島県"
+    }
+]

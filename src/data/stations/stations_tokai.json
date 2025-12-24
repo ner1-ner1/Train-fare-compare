@@ -1,0 +1,104 @@
+[
+    {
+        "id": "NAGOYA",
+        "name": "名古屋",
+        "company": "JR_TOKAI",
+        "pref": "愛知県"
+    },
+    {
+        "id": "CHIKUSA",
+        "name": "千種",
+        "kana": "ちくさ",
+        "company": "JR_TOKAI",
+        "pref": "愛知県"
+    },
+    {
+        "id": "TAJIMI",
+        "name": "多治見",
+        "kana": "たじみ",
+        "company": "JR_TOKAI",
+        "pref": "岐阜県"
+    },
+    {
+        "id": "NAKATSUGAWA",
+        "name": "中津川",
+        "kana": "なかつがわ",
+        "company": "JR_TOKAI",
+        "pref": "岐阜県"
+    },
+    {
+        "id": "SHIOJIRI",
+        "name": "塩尻",
+        "kana": "しおじり",
+        "company": "JR_EAST",
+        "pref": "長野県"
+    },
+    {
+        "id": "NAGANO",
+        "name": "長野",
+        "company": "JR_EAST",
+        "pref": "長野県"
+    },
+    {
+        "id": "GIFU",
+        "name": "岐阜",
+        "kana": "ぎふ",
+        "company": "JR_TOKAI",
+        "pref": "岐阜県"
+    },
+    {
+        "id": "GERO",
+        "name": "下呂",
+        "kana": "げろ",
+        "company": "JR_TOKAI",
+        "pref": "岐阜県"
+    },
+    {
+        "id": "TAKAYAMA",
+        "name": "高山",
+        "kana": "たかやま",
+        "company": "JR_TOKAI",
+        "pref": "岐阜県"
+    },
+    {
+        "id": "HIDA_FURUKAWA",
+        "name": "飛騨古川",
+        "kana": "ひだふるかわ",
+        "company": "JR_TOKAI",
+        "pref": "岐阜県"
+    },
+    {
+        "id": "TOYAMA",
+        "name": "富山",
+        "company": "JR_WEST",
+        "pref": "富山県"
+    },
+    {
+        "id": "KUWANA",
+        "name": "桑名",
+        "kana": "くわな",
+        "company": "JR_TOKAI",
+        "pref": "三重県"
+    },
+    {
+        "id": "TSU",
+        "name": "津",
+        "kana": "つ",
+        "company": "JR_TOKAI",
+        "pref": "三重県"
+    },
+    {
+        "id": "MATSUSAKA",
+        "name": "松阪",
+        "kana": "まつさか",
+        "company": "JR_TOKAI",
+        "pref": "三重県"
+    },
+    {
+        "id": "KII_KATSUURA",
+        "name": "紀伊勝浦",
+        "kana": "きいかつうら",
+        "company": "JR_WEST",
+        "pref": "和歌山県"
+    }
+]

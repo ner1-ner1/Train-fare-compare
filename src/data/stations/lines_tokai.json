@@ -1,0 +1,92 @@
+[
+    {
+        "id": "SHINANO_LINE",
+        "name": "中央西線・篠ノ井線 (しなの)",
+        "stations": [
+            {
+                "id": "NAGOYA",
+                "km": 0.0
+            },
+            {
+                "id": "CHIKUSA",
+                "km": 5.8
+            },
+            {
+                "id": "TAJIMI",
+                "km": 36.0
+            },
+            {
+                "id": "NAKATSUGAWA",
+                "km": 79.6
+            },
+            {
+                "id": "SHIOJIRI",
+                "km": 174.8
+            },
+            {
+                "id": "MATSUMOTO",
+                "km": 188.1
+            },
+            {
+                "id": "NAGANO",
+                "km": 250.8
+            }
+        ]
+    },
+    {
+        "id": "HIDA_LINE",
+        "name": "高山本線 (ひだ)",
+        "stations": [
+            {
+                "id": "NAGOYA",
+                "km": 0.0
+            },
+            {
+                "id": "GIFU",
+                "km": 30.3
+            },
+            {
+                "id": "GERO",
+                "km": 118.4
+            },
+            {
+                "id": "TAKAYAMA",
+                "km": 166.4
+            },
+            {
+                "id": "HIDA_FURUKAWA",
+                "km": 181.5
+            },
+            {
+                "id": "TOYAMA",
+                "km": 255.6
+            }
+        ]
+    },
+    {
+        "id": "NANKI_LINE",
+        "name": "関西本線・紀勢本線 (南紀)",
+        "stations": [
+            {
+                "id": "NAGOYA",
+                "km": 0.0
+            },
+            {
+                "id": "KUWANA",
+                "km": 23.8
+            },
+            {
+                "id": "TSU",
+                "km": 66.5
+            },
+            {
+                "id": "MATSUSAKA",
+                "km": 87.2
+            },
+            {
+                "id": "KII_KATSUURA",
+                "km": 246.0
+            }
+        ]
+    }
+]

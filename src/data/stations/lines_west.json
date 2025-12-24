@@ -1,0 +1,150 @@
+[
+    {
+        "id": "THUNDERBIRD_LINE",
+        "name": "北陸本線 (サンダーバード)",
+        "stations": [
+            {
+                "id": "OSAKA",
+                "km": 0.0
+            },
+            {
+                "id": "SHIN_OSAKA",
+                "km": 3.8
+            },
+            {
+                "id": "KYOTO",
+                "km": 42.8
+            },
+            {
+                "id": "TSURUGA",
+                "km": 136.9
+            }
+        ]
+    },
+    {
+        "id": "KUROSHIO_LINE",
+        "name": "阪和線・紀勢本線 (くろしお)",
+        "stations": [
+            {
+                "id": "SHIN_OSAKA",
+                "km": 0.0
+            },
+            {
+                "id": "TENNOJI",
+                "km": 11.2
+            },
+            {
+                "id": "WAKAYAMA",
+                "km": 72.5
+            },
+            {
+                "id": "SHIRAHAMA",
+                "km": 160.0
+            },
+            {
+                "id": "KII_KATSUURA",
+                "km": 257.6
+            }
+        ]
+    },
+    {
+        "id": "YAKUMO_LINE",
+        "name": "伯備線 (やくも)",
+        "stations": [
+            {
+                "id": "OKAYAMA",
+                "km": 0.0
+            },
+            {
+                "id": "KURASHIKI",
+                "km": 15.9
+            },
+            {
+                "id": "YONAGO",
+                "km": 155.2
+            },
+            {
+                "id": "MATSUE",
+                "km": 183.6
+            },
+            {
+                "id": "IZUMOSHI",
+                "km": 216.5
+            }
+        ]
+    },
+    {
+        "id": "KONOTORI_LINE",
+        "name": "福知山線・山陰本線 (こうのとり)",
+        "stations": [
+            {
+                "id": "SHIN_OSAKA",
+                "km": 0.0
+            },
+            {
+                "id": "OSAKA",
+                "km": 3.8
+            },
+            {
+                "id": "FUKUCHIYAMA",
+                "km": 114.3
+            },
+            {
+                "id": "KINOSAKI_ONSEN",
+                "km": 183.7
+            }
+        ]
+    },
+    {
+        "id": "SUPER_HAKUTO_LINE",
+        "name": "智頭急行線 (スーパーはくと)",
+        "stations": [
+            {
+                "id": "KYOTO",
+                "km": 0.0
+            },
+            {
+                "id": "OSAKA",
+                "km": 42.8
+            },
+            {
+                "id": "SANNOMIYA",
+                "km": 73.4
+            },
+            {
+                "id": "HIMEJI",
+                "km": 130.7
+            },
+            {
+                "id": "TOTTORI",
+                "km": 224.8
+            },
+            {
+                "id": "KURAYOSHI",
+                "km": 272.0
+            }
+        ]
+    },
+    {
+        "id": "HARUKA_LINE",
+        "name": "関西空港線 (はるか)",
+        "stations": [
+            {
+                "id": "KYOTO",
+                "km": 0.0
+            },
+            {
+                "id": "SHIN_OSAKA",
+                "km": 39.0
+            },
+            {
+                "id": "TENNOJI",
+                "km": 56.4
+            },
+            {
+                "id": "KANSAI_AIRPORT",
+                "km": 99.8
+            }
+        ]
+    }
+]

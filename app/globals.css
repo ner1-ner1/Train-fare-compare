@@ -1,26 +1,47 @@
 @import "tailwindcss";
 
+@theme {
+  --font-sans: var(--font-inter), var(--font-noto-sans-jp), sans-serif;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* MV Style Colors */
+  --mv-bg: #d4d4d4;
+  /* Machine Body Gray */
+  --mv-header: #000000;
+  --mv-text-yellow: #fcd34d;
+  /* Header Text */
+
+  /* Button Gradients */
+  --btn-black: linear-gradient(to bottom, #4a4a4a 0%, #2b2b2b 50%, #000000 100%);
+  --btn-green: linear-gradient(to bottom, #00b34d 0%, #008037 50%, #006400 100%);
+  --btn-blue: linear-gradient(to bottom, #3b82f6 0%, #1d4ed8 50%, #1e3a8a 100%);
+  --btn-pink: linear-gradient(to bottom, #ec4899 0%, #be185d 50%, #831843 100%);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8fafc;
+  /* Slate 50 */
 }

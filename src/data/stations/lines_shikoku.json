@@ -1,0 +1,64 @@
+[
+    {
+        "id": "SHIOKAZE_LINE",
+        "name": "予讃線 (しおかぜ)",
+        "stations": [
+            {
+                "id": "OKAYAMA",
+                "km": 0.0
+            },
+            {
+                "id": "UTAZU",
+                "km": 42.4
+            },
+            {
+                "id": "MARUGAME",
+                "km": 45.0
+            },
+            {
+                "id": "TAKAMATSU",
+                "km": 64.1
+            },
+            {
+                "id": "IMAABARI",
+                "km": 146.4
+            },
+            {
+                "id": "MATSUYAMA",
+                "km": 194.4
+            }
+        ]
+    },
+    {
+        "id": "NANPU_LINE",
+        "name": "土讃線 (南風)",
+        "stations": [
+            {
+                "id": "OKAYAMA",
+                "km": 0.0
+            },
+            {
+                "id": "UTAZU",
+                "km": 42.4
+            },
+            {
+                "id": "KOCHI",
+                "km": 159.0
+            }
+        ]
+    },
+    {
+        "id": "UZUSHIO_LINE",
+        "name": "高徳線 (うずしお)",
+        "stations": [
+            {
+                "id": "TAKAMATSU",
+                "km": 0.0
+            },
+            {
+                "id": "TOKUSHIMA",
+                "km": 74.5
+            }
+        ]
+    }
+]
